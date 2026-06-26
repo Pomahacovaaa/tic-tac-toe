@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'romantics';
+    src: url('ROMANTIC.TTF') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'romantics', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #feffde;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 90vh; /* Full viewport height */
+    display: flex; /* Enable flexbox */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+section {
+    text-align: center;
+}
+
+.typewriter h1 {
+  overflow: hidden; 
+  border-right: .10em solid #686857; 
+  white-space: nowrap; 
+  margin: 0 auto;
+  letter-spacing: 5px; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    font-size: 40px;
+    color: #686857;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #686857;; }
+}
+.game--restart {
+    
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 15px;
+    font-family: 'romantics', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    height: 50px;
+    font-size: 25px;
+    color: #93937c;
+    font-weight: 800;
+    padding: 1px;
+    border-width: 5px;
+    background-color: #feffde;
+    border-color: #cfcfbc;
+
+    transition-duration: 0.5s;
+
+}
+
+.game--restart:hover {
+    background-color: #e5e5d1;
+    color: #686857;
+    border-color: #aeae98;
+}
