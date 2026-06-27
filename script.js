@@ -85,3 +85,15 @@ function handleRestartGame() {
 }
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
 document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
+
+const soundDiv = document.querySelector(".sound");
+const audio = new Audio(soundDiv.dataset.sound);
+
+soundDiv.addEventListener("click", () => {
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+        audio.currentTime = 0; 
+    }
+});
