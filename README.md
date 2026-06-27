@@ -17,6 +17,9 @@ A tic tac toe game that looks like the ceramics tic tac toe from pinterest. I¨v
 * background music (can be toggled on/off)
 * win and draw detection
 
+## Note
+I followed the git tutorial on the horizons page but I don't know if it worked.
+
 ## Tutorials used
 
 * [link](https://codewithcurious.com/projects/tic-tac-toe-game-using-html-css-js/)
