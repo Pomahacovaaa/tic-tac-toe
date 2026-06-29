@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'romantics';
+    src: url('ROMANTIC.TTF') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    color: #686857;
+    background: #feffde;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    background: #D2A2A2;
+    margin: 50px auto;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.result {
+    font-size: 20px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    top: 0;
+    letter-spacing: 5px;
+    font-family: 'romantics', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: 4rem;
+    z-index: 2;
+        color: #507299;
+}
+.res{
+    padding: 0.8rem;
+    width: 100px;
+
+    border-radius: 15px;
+
+    height: 50px;
+    font-size: 15px;
+    color: #93937c;
+    font-weight: 800;
+    padding: 1px;
+    border-width: 5px;
+    background-color: #feffde;
+    border-color: #cfcfbc;
+    font-family: 'romantics', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+
+
+ 
+       height: 50px;
+    font-size: 25px;
+    color: #93937c;
+    font-weight: 800;
+
+    transition-duration: 0.5s;
+
+
+
+
+
+}
+.res:hover {
+    background-color: #e5e5d1;
+    color: #686857;
+    border-color: #aeae98;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
