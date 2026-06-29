@@ -20,5 +20,5 @@ A website where you can play 4 minigames with the same color theme. I made it be
 * a reaction game
 
 ## Note
-I followed the git commits tutorial on the horizons page - but I'm not sure that it had worked.
+I followed the git commits tutorial on the horizons page - but I'm not sure that it had worked. The extra tic-tac-toe file is for when I wanted to have the games separated, but I moved them when decided to add more games.
 
