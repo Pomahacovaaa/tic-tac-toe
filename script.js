@@ -1,3 +1,14 @@
+const clickSound = new Audio("pop.mp3");
+
+clickSound.volume = 0.3;
+
+document.addEventListener("click", (e) => {
+    if (e.target.tagName === "BUTTON") {
+        clickSound.currentTime = 0;
+        clickSound.play().catch(() => {});
+    }
+});
+
 const statusDisplay = document.querySelector('.game--status');
 
 let gameActive = true;
