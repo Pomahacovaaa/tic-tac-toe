@@ -6,11 +6,13 @@
 }
 body {
     font-family: 'romantics', Tahoma, Geneva, Verdana, sans-serif;
+
     background-color: #feffde;
     background-image: url('deska.png');
     background-size: 440px;
-    background-position: center;
+    background-position: center 120px; 
     background-repeat: no-repeat;
+
     
 }
 
@@ -32,26 +34,30 @@ section {
     font-size: 50px;
     color: #507299;
     margin: 50px auto;
-    
+        margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
     letter-spacing: 10PX;
 }
+
+
 
 .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 306px;
-    margin: 10px auto;
-    margin-bottom: 70px;
-    
-    
+    margin: 10px auto 20px;
 
+    
+    
+    margin-top: 0;
 
 }
 
 .game--status {
     
     
-    margin-top: 60px;
+
     
     
  
@@ -62,7 +68,11 @@ section {
     color: #93937c;
     font-weight: 800;
     padding: 1px;
-
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 10px 0;
+    text-align: center;
 
 
     transition-duration: 0.5s;
@@ -127,4 +137,23 @@ section {
     background-color: #e5e5d1;
     color: #686857;
     border-color: #aeae98;
+}
+
+section {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.game--container {
+    margin: 20px auto;
+}
+
+.game--status {
+    margin: 10px auto;
+}
+
+.game--restart {
+    margin: 10px auto;
+    display: block;
 }
